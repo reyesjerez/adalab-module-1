@@ -1,0 +1,27 @@
+.titulo {
+    font-size: 20px;
+    color: blueviolet;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 500px;
+    width: 500px;
+    gap: 10px;
+
+}
+.mini {
+    background-color: pink;
+    border: solid 2px;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+}
