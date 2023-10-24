@@ -1,0 +1,37 @@
+
+:root {
+    --max-width: 960px;
+
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    max-width: var(--max-width);
+    width: 100vw;
+    min-height: 80vh;
+  
+}
+header {
+    background-color: pink;
+    width: 100vw;
+    height: 10vh;
+    max-width: var(--max-width);
+}
+.aside1 {
+    background-color: blueviolet;
+    width: 20vw;
+}
+.section {
+    background-color: aquamarine;
+    width: 60vw;
+}
+.aside2 {
+    background-color: lightcoral;
+    width: 20vw;
+}
+footer {
+    background-color: yellow;
+    width: 100vw;
+    height: 10vh;
+    max-width: var(--max-width);
+}

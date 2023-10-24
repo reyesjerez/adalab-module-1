@@ -1,0 +1,21 @@
+.box {
+    background-color: aqua;
+    width: 100vw;
+    height: 40px;
+}
+.menu {
+    box-sizing: border-box;
+    background-color: pink;
+    width: 90vw;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.item {
+    background-color: yellow;
+}
