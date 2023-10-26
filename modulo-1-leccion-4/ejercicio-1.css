@@ -1,0 +1,21 @@
+.linea {
+    display: block;
+}
+.calidad {
+    display: inline;
+}
+
+.table {
+    display: table;
+}
+.table-header {
+    display: table-header-row;
+    border: solid coral 3px;
+
+}
+.row1 {
+    display: table-row;
+}
+.column {
+    display: table-cell;
+}

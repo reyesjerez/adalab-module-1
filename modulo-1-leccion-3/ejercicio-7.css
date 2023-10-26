@@ -3,7 +3,7 @@
     flex-direction: row;
     width: 100vw;
     max-width: 840px;
-    
+
 }
 .foto {
     width: 100px;
@@ -12,7 +12,9 @@
 }
 .valoraciones {
     background-color: pink;
-    justify-self: flex-end;
+    width: 100px;
+    height: 100px;
+    justify-self: flex-end; 
 }
 .presupuesto {
     background-color: grey;
@@ -27,6 +29,21 @@
     flex-direction: row;
     gap: 10px;
 }
-.info {
-    min-width: 80vw;
+.verval {
+    font-size: 8px;
 }
+.numval {
+    font-size: 8px;
+}
+.estrella {
+    width: 15px;
+    height: 15px;
+    font-size: 8px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.info {
+    min-width: 70vw;
+}  

@@ -13,8 +13,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
+    0px;
     
 }
 .mini {
@@ -25,6 +26,6 @@
     width: 200px;
 }
 .mini6 {
-    order: 1;
-    flex-grow: 2;
+    order: -1;
+    flex-grow: 3;
 }
